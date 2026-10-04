@@ -1,0 +1,3 @@
+const form=document.getElementById('bookingForm');
+form.addEventListener('submit',e=>{e.preventDefault();const msg=document.getElementById('formMsg');msg.textContent='تم استلام طلبك بنجاح. سنتواصل معك لتأكيد الموعد.';form.reset();});
+document.querySelector('.menu').addEventListener('click',()=>{const nav=document.querySelector('nav');nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.position='absolute';nav.style.top='68px';nav.style.right='4%';nav.style.left='4%';nav.style.background='#fff';nav.style.padding='18px';nav.style.borderRadius='16px';nav.style.boxShadow='0 15px 35px rgba(0,0,0,.12)';nav.style.flexDirection='column';});
